@@ -1,0 +1,50 @@
+{
+  "id": "sales_001",
+
+  "scenario": {
+    "stage": "negotiation",
+    "customer_type": "price_sensitive",
+    "product": "AI automation tool"
+  },
+
+  "customer_message": "price konjam kammi panna mudiyuma",
+
+  "agent_responses": [
+    {
+      "text": "sir already best price kuduthirukom, but unga kitta deal close panna small discount try panren",
+      "strategy": "value_defense",
+      "tone": "persuasive",
+      "behavior_vector": {
+        "persuasion": 0.9,
+        "confidence": 0.8,
+        "politeness": 0.7
+      },
+      "effectiveness_score": 0.92
+    },
+    {
+      "text": "seri sir, unga budget sollunga, adhuku match panna try panrom",
+      "strategy": "flexible_negotiation",
+      "tone": "soft",
+      "behavior_vector": {
+        "persuasion": 0.7,
+        "empathy": 0.8
+      },
+      "effectiveness_score": 0.85
+    }
+  ],
+
+  "conversation_tags": [
+    "negotiation",
+    "price_discussion"
+  ],
+
+  "rejection_handling": {
+    "type": "soft",
+    "strategy": "adjustment_offer"
+  },
+
+  "linguistic": {
+    "dialect": "neutral_tamil",
+    "slang_used": ["seri", "konjam"]
+  }
+}

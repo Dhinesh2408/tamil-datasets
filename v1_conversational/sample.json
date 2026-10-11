@@ -1,0 +1,35 @@
+{
+  "id": "conv_001",
+
+  "text": {
+    "raw": "dei macha nee enga da poita",
+    "clean": "nee enga poita"
+  },
+
+  "labels": {
+    "intent": "question",
+    "tone": "casual",
+    "emotion": "curious",
+    "slang_level": "high",
+    "code_mixed": false,
+    "formality": "informal"
+  },
+
+  "context": {
+    "domain": "friends_chat",
+    "situation": "checking_location",
+    "relationship": "close_friends"
+  },
+
+  "behavior_vector": {
+    "politeness": 0.3,
+    "aggression": 0.1,
+    "empathy": 0.2,
+    "confidence": 0.6
+  },
+
+  "linguistic": {
+    "dialect": "chennai",
+    "has_slang": true
+  }
+}

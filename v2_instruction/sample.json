@@ -1,0 +1,36 @@
+{
+  "id": "inst_001",
+
+  "instruction": "Respond politely to a frustrated Tamil user",
+
+  "input": "unga product romba waste ah iruku",
+
+  "responses": [
+    {
+      "text": "mannichukonga sir, unga issue ah correct panna immediate ah check panrom",
+      "tone": "empathetic",
+      "style": "customer_support",
+      "behavior_vector": {
+        "politeness": 0.9,
+        "empathy": 0.95,
+        "aggression": 0.0
+      },
+      "quality_score": 0.95
+    },
+    {
+      "text": "sorry sir, unga feedback romba important, we will fix this soon",
+      "tone": "formal",
+      "behavior_vector": {
+        "politeness": 0.85,
+        "empathy": 0.8
+      },
+      "quality_score": 0.85
+    }
+  ],
+
+  "metadata": {
+    "intent": "complaint",
+    "toxicity_level": 0.6,
+    "target_behavior": "calm_response"
+  }
+}

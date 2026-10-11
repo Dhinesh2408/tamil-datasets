@@ -1,0 +1,30 @@
+{
+  "water": {
+    "meaning_ta": "தண்ணீர்",
+    "variants": {
+      "formal": ["thanneer", "neer"],
+      "slang": ["thanni"],
+      "regional": {
+        "chennai": ["thanni"],
+        "literary": ["neer"],
+        "rare": ["chalam"]
+      }
+    }
+  },
+
+  "okay": {
+    "meaning_ta": "சரி",
+    "variants": {
+      "formal": ["sari"],
+      "slang": ["seri", "ok da"],
+      "regional": {
+        "chennai": ["seri"],
+        "madurai": ["sari pa"]
+      }
+    }
+  },
+
+  "fan": {
+    "meaning_ta": ""
+  }
+}

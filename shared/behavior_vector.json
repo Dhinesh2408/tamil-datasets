@@ -1,0 +1,30 @@
+{
+  "version": "1.0",
+
+  "dimensions": {
+    "politeness": {
+      "range": [0, 1],
+      "description": "Respectfulness and courtesy level"
+    },
+    "aggression": {
+      "range": [0, 1],
+      "description": "Harshness or anger in tone"
+    },
+    "empathy": {
+      "range": [0, 1],
+      "description": "Understanding and emotional support"
+    },
+    "persuasion": {
+      "range": [0, 1],
+      "description": "Ability to influence or convince"
+    },
+    "confidence": {
+      "range": [0, 1],
+      "description": "Assertiveness in communication"
+    },
+    "urgency": {
+      "range": [0, 1],
+      "description": "Time pressure or importance"
+    }
+  }
+}

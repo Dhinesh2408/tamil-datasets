@@ -1,0 +1,36 @@
+{
+  "intents": [
+    {
+      "name": "greeting",
+      "description": "Starting a conversation"
+    },
+    {
+      "name": "question",
+      "description": "Asking for information"
+    },
+    {
+      "name": "request",
+      "description": "Asking someone to do something"
+    },
+    {
+      "name": "complaint",
+      "description": "Expressing dissatisfaction"
+    },
+    {
+      "name": "rejection",
+      "description": "Declining an offer"
+    },
+    {
+      "name": "follow_up",
+      "description": "Reconnecting after previous interaction"
+    },
+    {
+      "name": "negotiation",
+      "description": "Discussing price or terms"
+    },
+    {
+      "name": "persuasion",
+      "description": "Trying to convince someone"
+    }
+  ]
+}
